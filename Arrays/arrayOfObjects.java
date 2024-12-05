@@ -1,18 +1,19 @@
 public class arrayOfObjects {
     
     static class Student {
+        // the student class.
         public int roll_no;
         public String name;
 
         Student(int roll_no, String name) {
             this.roll_no = roll_no;
             this.name = name;
-        }
+        }  
     }
         public static void main(String[] args) {
             // declaring an array of student.
             Student[] arr;
-            
+
 
             // allocating memory of 5 objects of type student.
             arr = new Student[6];
