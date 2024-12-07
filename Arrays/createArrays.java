@@ -12,6 +12,15 @@ public class createArrays {
 
         System.out.println("Array after creation: ");
         printArray(numbers);
+
+        // Reading from the array.
+        System.out.println("Element at index 2:" + numbers[2]);
+
+        // Updating the array.
+        numbers[2] = 35;
+        System.out.println("Changed the value at index 2 to: " +  numbers[2]);
+        System.out.println("Array after the updates: ");
+        printArray(numbers);
     }
 
     // Helper method to print the array.
