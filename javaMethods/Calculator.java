@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class mathFuc { // Removed 'public'
+class mathFuc {
     static int add(int a, int b) {
         return a + b;
     }
@@ -24,7 +24,7 @@ class mathFuc { // Removed 'public'
     }
 }
 
-public class mathUtils {
+public class Calculator {
     
     public static void main(String[] args) throws IOException
     {
