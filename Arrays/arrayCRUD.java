@@ -22,7 +22,6 @@ public class arrayCRUD {
             System.out.println("Invalid index");
         }
 
-
         // Updating an element.
         System.out.print("Enter index to update: ");
         int updateIndex = scanner.nextInt();
