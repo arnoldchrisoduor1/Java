@@ -16,7 +16,7 @@ public class Employee {
 
     // Main method.
     public static void main(String args[]) {
-        Employee.set("Arnold Chris" ,125,000.0f);
+        Employee.set("Arnold Chris" ,125000.0f);
         Employee.get();
     }
 }
