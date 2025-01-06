@@ -22,3 +22,7 @@
 - A private class can hide its members or methods from the end user, using abstraction to hide implementation details, by `combining data hiding` and `abstraction`.
 
 - Encapsulation can be achieved by Declaring all the variables in the class as private and writing public methods in the class to set and get the values of variables.
+
+
+## Inheritence.
+- Mechanism by which one class is allowed to inherit the features(fields and methods) of another class. Creating new classes based on the existsing ones.
