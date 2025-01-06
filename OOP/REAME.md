@@ -16,3 +16,9 @@
 
 ## Encapsulation.
 - This is a principle that combines daa and methods in a class. Allows implementation details to be hidden while exposing a public interface for interaction.
+
+- The variables or data of a class are hidden from any ather class and can be accessed only through any member function of its own class.
+
+- A private class can hide its members or methods from the end user, using abstraction to hide implementation details, by `combining data hiding` and `abstraction`.
+
+- Encapsulation can be achieved by Declaring all the variables in the class as private and writing public methods in the class to set and get the values of variables.
