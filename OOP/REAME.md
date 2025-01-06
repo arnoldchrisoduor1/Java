@@ -12,3 +12,7 @@
 2. Abstract methods must always be redefined in the subclass, thus making overriding compulsory or the subclass itself can be abstract.
 3. There can be no object of an abstract class. The abstract class can not be directly instantiated with the `new` operator.
 4. An abstract class can have parameterized constructors and the default constructor is always present in an abstract class.
+
+
+## Encapsulation.
+- This is a principle that combines daa and methods in a class. Allows implementation details to be hidden while exposing a public interface for interaction.
