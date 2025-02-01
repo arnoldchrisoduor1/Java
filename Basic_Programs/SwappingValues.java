@@ -31,6 +31,13 @@ public class SwappingValues {
         System.out.println(" Swapped XOR Value of m is " + x + " and Value of n is " + y);
     }
 
+    static void swapUsingArithmeticOperators(int a, int b) {
+        System.out.println("Before swapping Value a is " + a + " and the value of b is " + b);
+        // swapping the values using arithmetic operators.
+        a = (a + b) - (b = a);
+        System.out.println("After swapping Value a is " + a + " and the value of b is " + b);
+    }
+
     public static void main(String[] args) {
         // Random integer values.
         int m = 9, n = 5;
@@ -44,5 +51,9 @@ public class SwappingValues {
         // Swapping using the XOR bitwise operator.
         int x = 9, y = 5;
         swapValuesUsingXOROperator(x, y);
+
+        // swapping the values using arithmetic operators.
+        int a = 9, b = 5;
+        swapUsingArithmeticOperators(a, b);
     }
 }
