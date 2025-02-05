@@ -18,10 +18,17 @@ public class FindingGCD {
         return GCD(x, y - x);
     }
 
+    static int GCD2(int x, int y) {
+        if(y==0)
+            return x;
+        return GCD2(y, x % y);
+    }
+
     // The driver method.
     public static void main(String[] args)
     {
         int x = 100, y = 88;
         System.out.println("GCD of " + x + " and " + y + " is " + GCD(x, y));
+        System.out.println("GCD2 of " + x + " and " + y + " is " + GCD2(x, y));
     }
 }
