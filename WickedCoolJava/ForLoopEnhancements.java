@@ -13,10 +13,18 @@ public class ForLoopEnhancements {
 
         int sum = 0;
         // the old way to iterate.
+        System.out.println("Printing the values using the old way of doing iteration");
         for (Iterator iter = theList.iterator(); iter.hasNext();) {
             Integer x = (Integer) iter.next();
             sum = sum + x.intValue();
         }
         System.out.println("The sum " + sum);
+
+        // Using the modern way to do iteration.
+        sum = 0;
+        for (Integer item : theList) {
+            sum = sum + item;
+        }
+        System.out.println("Adding using thr modern example. " + sum);
     }
 }
